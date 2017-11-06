@@ -1,0 +1,116 @@
+---
+title: Luxury Homes Florida
+---
+{% extends "layouts/_layout.html" %}
+
+{% block content %}
+
+	
+	{% include "partials/_header.html" %}
+	
+	<section class="intro">
+		<div class="container">
+			<div class="intro__wrapper">
+				<div class="intro__text">
+					<p class="name">Luxury <span>Homes</span> Florida</p>
+					<p class="about">MODERN Homes Rent FOR Luxury Life</p>
+					<hr/>
+					<p class="calltoaction">Want to get best home offers within hours? Choose top selected agent now!</p>
+					<a href="#" class="calltoaction_btn">Fill in a form {{mixins.icon("arrow")}}</i></a>
+				</div>
+				<div class="topform_wrapper">
+					<p class="topform__title">GET THE <span>offers</span> WITHIN hours!</p>
+					<form action="" class="topform">
+						<input class="topform__item" type="text" name="name" placeholder="Name">
+						<input class="topform__item" type="email" name="email" placeholder="Email">
+						<input class="topform__item" type="tel" name="phone" placeholder="Phone">
+						<textarea class="topform__item" name="text" placeholder="Dynamic header"></textarea>
+						<input class="topform__item submit" type="submit" value="Get Started">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="awesome">
+		<div class="container">
+			<div class="awesome__wrapper">
+				<div class="title">
+					<p class="main_title">WHY THIS IS AWESOME</p>
+					<hr/>
+					<p class="secondary_title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<div class="circles">
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("sold")}}</div>
+						<div class="circles__text">
+							<p class="bold">4243</p>
+							<p class="regular">Homes For Sale</p>
+						</div>
+					</div>
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("apartments")}}</div>
+						<div class="circles__text">
+							<p class="bold">6314</p>
+							<p class="regular">Homes For Sale</p>
+						</div>
+					</div>
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("cup")}}</div>
+						<div class="circles__text">
+							<p class="bold">Top Rated</p>
+							<p class="regular">Real Estate Agents</p>
+						</div>
+					</div>
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("rent")}}</div>
+						<div class="circles__text">
+							<p class="bold">6231</p>
+							<p class="regular">Homes For Rent</p>
+						</div>
+					</div>
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("bolt")}}</div>
+						<div class="circles__text">
+							<p class="bold">Work Fast</p>
+						</div>
+					</div>
+					<div class="circles__wrapper">
+						<div class="circle">{{mixins.icon("house-key")}}</div>
+						<div class="circles__text">
+							<p class="bold">Only Actual</p>
+							<p class="regular">Objects</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="homes">
+		<div class="container">
+			<div class="homes__wrapper">
+				<div class="title">
+					<p class="main_title">Homes and apartments</p>
+					<hr/>
+					<p class="secondary_title">We provide homes and apartments for rent&amp;sale</p>
+				</div>
+				<div class="gallery">
+					<div class="gallery__item home_sail">
+						<a href="#" class="gallery__picname">Homes For Sale</a>
+					</div>
+					<div class="gallery__item ap_sail">
+						<a href="#" class="gallery__picname">Apartments For Sale</a>
+					</div>
+					<div class="gallery__item home_rent">
+						<a href="#" class="gallery__picname">Homes For Rent</a>
+					</div>
+					<div class="gallery__item ap_rent">
+						<a href="#" class="gallery__picname">Apartments For Rent</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{% include "partials/_footer.html" %}
+
+{% endblock %}
